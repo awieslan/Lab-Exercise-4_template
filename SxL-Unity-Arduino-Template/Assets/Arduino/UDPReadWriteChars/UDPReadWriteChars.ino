@@ -6,12 +6,12 @@
 //Sample board supplier: https://www.amazon.com/HiLetgo-ESP-WROOM-32-Development-Microcontroller-Integrated/dp/B0718T232Z
 
 // Replace with your network credentials
-const char *ssid = "WIFI NETWORK NAME";//"TP-Link_5E30";
-const char *password = "WIFI NETWORK PASSWORD";//"18506839";
+const char *ssid = "TP-Link_24A4";//"TP-Link_24A4";
+const char *password = "91414380";//"91414380";
 
 // Set up UDP
 WiFiUDP udp;
-const char *udpAddress = "192.168.0.102";  // Mac IP address 
+const char *udpAddress = "192.168.0.069";  // Mac IP address 
 const int udpSenderPort = 5006;  // Port for sending data to Unity
 const int udpReceiverPort = 5005;  // Port for receiving data from Unity
 String sentMessage;
